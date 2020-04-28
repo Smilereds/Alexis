@@ -1,0 +1,69 @@
+@import "colors";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+// h1 {
+//     font-family: 'Libre Baskerville', serif;
+//     font-size: 60px;
+//     line-height: 85px;
+//     text-align: center;
+//     padding-bottom: 41px;
+//     color: $light_color_main;
+// }
+
+// h2
+%headline {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+//h6
+%tagline {
+    margin-bottom: 50px;
+    padding: 33px 0px;
+
+    font-size: 18px;
+    
+    @media screen and (max-width: 576px) {
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+p {
+    font-size: 15px;
+    color: $font_color;
+    line-height: 27px;
+}
+
+strong {
+    font-weight: bold; // сбрасывается в reset`e
+}
+
+dt {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+dd {
+    font-size: 16px;
+    line-height: 27px;
+}
